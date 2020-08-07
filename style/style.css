@@ -1,0 +1,90 @@
+#sidebar{
+    min-width: 80px;
+    max-width:80px;
+    background: rgb(139, 27, 230);
+    color: white;
+    min-height: 100vh;
+    position: relative;
+}
+
+#sidebar ul{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 0 0;
+    list-style-type: none;
+}
+
+#sidebar ul li{
+    height: 45px;
+padding: 10px;
+font-size: 1.5rem;
+line-height: 100%;
+transition: all .4s ease;
+cursor: pointer;
+}
+
+#sidebar ul li:nth-child(1){
+    margin-bottom: 15px;
+}
+
+#sidebar ul li:hover{
+    background: rgba(0, 0, 0, 0.24);
+}
+.exit-icon{
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 10px;
+}
+
+
+
+.box1{
+   
+    height: 40vh;
+  
+     background-image:  linear-gradient(90deg, rgba(108,20,175,1) 0%, rgba(140,54,183,1) 17%, rgba(146,60,185,1) 20%, rgba(161,76,189,1) 28%, rgba(208,125,201,0.9472163865546218) 53%, rgba(0,212,255,1) 100%) ,url(/img/man.jpg);
+     background-size: contain;
+     background-repeat: no-repeat; 
+     background-position: right;  
+     background-blend-mode: overlay;
+}
+.top{
+    font-size: small;
+    border: .5px solid green;
+    display: block;
+  
+}
+.box{
+    border: 2px solid;
+}
+.image1 {
+    width: 3rem;
+    height: 3rem;
+}
+
+
+
+/* @media screen and (max-width: 990px){
+    .side-bar{
+        display: flex;
+        min-height: 60px !important;
+    }
+} */
+
+
+.date :hover{
+    background: rgb(139, 27, 230);  
+    
+}
+#rightbar .card{
+    transition: all .4s ease;
+}
+
+#rightbar .card:hover{
+transition: all .4s ease;
+background: rgb(139, 27, 230);
+color: white;
+transform: translateX(-30px);
+}
